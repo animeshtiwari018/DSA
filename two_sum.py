@@ -14,3 +14,15 @@ You may assume that each input has exactly one solution, and you may not use the
 ''' Brute Force '''
 
 
+def two_sum():
+    n = len(numbers)
+    for i in range(n):
+        for j in range(i + 1,n):
+            if numbers[i] + numbers[j] == target:
+                return [i + 1, j + 1]
+
+numbers = [ 1, 2, 4, 7, 8]
+target = 8
+
+result = two_sum()
+print(result)
