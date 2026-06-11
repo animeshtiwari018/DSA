@@ -29,7 +29,7 @@ print(result)"""
 
 ''' Optimize solution '''
 
-def two_sum(numbers, target):
+""" def two_sum(numbers, target):
     left = 0
     right = len(numbers) - 1
     
@@ -50,5 +50,5 @@ numbers = [1, 4, 7, 9, 11]
 target = 8
 result = two_sum(numbers, target)
 
-print(result)
+print(result) """
  
