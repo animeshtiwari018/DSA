@@ -1,5 +1,5 @@
-def even_odd():
-    if num % 2 == 0:
+def even_odd(a):
+    if number % 2 == 0:
         return "Even"
     else:
         return "Odd"
